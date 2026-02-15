@@ -17,6 +17,7 @@ export default function Home() {
       </section>
 
       <AnimatePresence>
+        
         {reportData && (
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
