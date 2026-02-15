@@ -6,8 +6,7 @@ import SummaryCards from "@/components/dashboard/SummaryCards";
 import InsightsSection from "@/components/insights/InsightsSection";
 import ChartsSection from "@/components/charts/ChartsSection";
 import FollowUpSection from "@/components/followup/FollowUpSection";
-import { motion, AnimatePresence } from "framer-motion"; // Animations ke liye
-
+import { motion, AnimatePresence } from "framer-motion"; 
 export default function Home() {
   const [reportData, setReportData] = useState<any>(null);
 
